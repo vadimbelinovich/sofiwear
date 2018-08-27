@@ -1,0 +1,272 @@
+@media (min-width: 768px) {
+	.menu__item a{
+		font-size: 1.5vw;
+	}
+	.insta{
+	  width: 70px;
+	  height: 70px;
+	}
+}
+
+@media (min-width: 992px) {
+	.container{
+	  padding: 0 20px;
+	}
+	.header{
+	  padding: 2vh 0 0;
+	}
+	.header .container{
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: flex-start;
+		padding: 0 2vw;
+	}
+	.wrapper{
+		height: 100vh;
+		background-image: url(../img/faces-big.jpg);
+		-webkit-background-size: contain;
+		background-size: contain;
+		background-position: 50% 100%;
+		background-repeat: no-repeat;
+	}
+	.logo,
+	.soc{
+		width: 16%;
+	}
+  .logo{
+  	min-width: auto;
+  }
+  .menu{
+  	line-height: 2.2;
+  	margin-bottom: 0;
+  }
+  .menu__item{
+	  padding: 0 10px;
+	}
+	.menu__item a{
+		font-size: 9px;
+	}
+  .soc{
+  	display: -webkit-flex;
+  	display: -moz-flex;
+  	display: -ms-flex;
+  	display: -o-flex;
+  	display: flex;
+  	justify-content: flex-end;
+  	align-items: center;
+  	text-align: right;
+  }
+  .soc__item{
+  	display: inline-block;
+  	vertical-align: middle;
+  	margin-bottom: 0;
+  }
+  .phone__link{
+  	font-size: 10px;
+  	font-weight: 600;
+  	color: #1a1a1a;
+  }
+  .insta{
+  	width: 35px;
+  	height: 35px;
+  	background-color: #000;
+  	border-radius: 50%;
+  	margin-left: 15px;
+  	transition: .2s;
+  	background-image: url(../img/insta.png);
+  	-webkit-background-size: 55%;
+  	background-size: 55%;
+  	background-position: 50% 50%;
+  	background-repeat: no-repeat;
+  }
+  .main{
+  	margin-top: -2vh;
+  }
+  .details{
+  	margin-bottom: 7vh;
+  }
+  .date{
+	  font-weight: 800;
+	  font-size: 2vw;
+	}
+	.place{
+	  font-size: 1.5vw;
+	  line-height: 1.9;
+	}
+	.address{
+	  font-size: 1vw;
+	}
+	.title__top{
+		font-size: 3vw;
+	}
+	.title__color{
+		width: 45%;
+		margin: auto;
+	}
+	.order{
+		text-align: center;
+	}
+	.title{
+		margin-bottom: 7vh;
+	}
+	.btn{
+		font-size: 1vw;
+		background-color: transparent;
+		border: 2px solid #ccc;
+		padding: 20px;
+		position: relative;
+		z-index: 1;
+		transition: .2s;
+	}
+	.btn:hover{
+		background-color: #000;
+		color: #fff;
+		border: 2px solid #000;
+	}
+	.age{
+		color: #cacbcc;
+		font-size: 2vw;
+		font-weight: 600;
+	}
+	.button__outer{
+		margin-bottom: 30px;
+	}
+	.hidden__web{
+		display: none;
+	}
+	.hidden__mob{
+	  display: block;
+	}
+	.modal__item {
+	  overflow-y: auto;
+	  top: 0px;
+	  left: 0px;
+	  bottom: 0;
+	  right: 0;
+	  margin: auto;
+	  width: 43%;
+	  height: 100%;
+	  padding: 80px;
+	  background: rgba(0,0,0, 0.9);
+	  display: none;
+	  color: #fff;
+	}
+	.close-modal {
+	  width: 25px;
+	  height: 25px;
+	  right: 31%;
+	}
+	.modal__title{
+	  font-weight: 300;
+	  text-align: left;
+	  font-size: 2vw;
+	  margin-bottom: 5vh;
+	  text-transform: uppercase;
+	}
+	.modal__text{
+	  font-size: 14px;
+	}
+	.modal__text b{
+		font-weight: 500;
+	}
+	.modal__text--bordered{
+	  padding-bottom: 5vh;
+	  margin-bottom: 5vh;
+	  border-bottom: 1px solid #fff;
+	}
+	.modal__pic{
+	  margin: 3vh auto;
+	}
+	.guest__item{
+	  margin-bottom: 5vh;
+	}
+	.guest__text{
+	  padding-left: 2vw;
+	}
+	.guest__name{
+	  font-size: 2vw;
+	  margin-bottom: 1vh;
+	}
+	.guest__descr{
+	  font-size: 1vw;
+	}
+}
+
+@media (min-width: 1200px) {
+	.main{
+  	margin-top: -7vh;
+  }
+  .details{
+  	margin-bottom: 5vh;
+  }
+  .date{
+	  font-size: 1.7vw;
+	}
+	.place{
+	  font-size: 1.4vw;
+	}
+	.address{
+	  font-size: .9vw;
+	}
+	.title__top{
+		font-size: 1.5vw;
+	}
+	.title__color{
+		width: 43%;
+	}
+	.menu__item a {
+    font-size: 12px;
+	}
+	.phone__link{
+		font-size: 14px;
+	}
+	.insta{
+		width: 40px;
+		height: 40px;
+		margin-left: 20px;
+	}
+	.button__outer{
+		margin-bottom: 20px;
+	}
+	.title{
+		margin-bottom: 4vh;
+	}
+	.btn{
+		padding: 24px 20px;
+		font-size: .8vw;
+		letter-spacing: 1.5px;
+	}
+	.age{
+		font-size: 1.5vw;
+	}
+	.modal__item{
+		padding: 100px;
+	}
+	.modal__text{
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 1440px) {
+	.menu__item a {
+    font-size: 15px;
+	}
+	.phone__link{
+		font-size: 18px;
+	}
+	/*.faces__outer{
+		margin-top: -17%;
+	}*/
+}
+
+@media (min-width: 1920px){
+	.main{
+  	margin-top: -7vh;
+  }
+  .details{
+  	margin-bottom: 6vh;
+  }
+  .title{
+  	margin-bottom: 6vh;
+  }
+}
