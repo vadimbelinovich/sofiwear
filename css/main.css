@@ -390,6 +390,26 @@ body {
   font-size: 3.5vw;
   margin-bottom: 2vh;
 }
+.modal__text--list{
+  margin-bottom: 2vh;
+  font-weight: 200;
+  font-size: 3.5vw;
+  line-height: 1.6;
+}
+.modal__text--item{
+  padding-left: 10px;
+  position: relative;
+}
+.modal__text--item::before{
+  position: absolute;
+  content: '';
+  display: block;
+  top: 10px;
+  left: 0;
+  width: 4px;
+  height: 1px;
+  background-color: rgba(255,255,255,.5);
+}
 .modal__text--bordered{
   padding-bottom: 4vh;
   margin-bottom: 4vh;

@@ -6,6 +6,12 @@
 	  width: 70px;
 	  height: 70px;
 	}
+	.modal__text--item{
+		padding-left: 20px;
+	}
+	.modal__text--item::before{
+	  top: 22px;
+	}
 }
 
 @media (min-width: 992px) {
@@ -154,7 +160,7 @@
 	.close-modal {
 	  width: 25px;
 	  height: 25px;
-	  right: 31%;
+	  right: 30%;
 	}
 	.modal__title{
 	  font-weight: 300;
@@ -189,6 +195,14 @@
 	}
 	.guest__descr{
 	  font-size: 1vw;
+	}
+	.modal__text--item{
+		padding-left: 20px;
+		font-size: 16px;
+	}
+	.modal__text--item::before{
+	  top: 13px;
+	  width: 10px;
 	}
 }
 
